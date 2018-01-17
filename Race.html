@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        div{
+            height: 100vh;
+            background: url('animacja/motocykl.png') no-repeat, url('animacja/derrick.png') no-repeat, url('animacja/excavate.png') no-repeat, url('animacja/excavators.png') no-repeat, url('animacja/transportation.png') no-repeat,
+            url('animacja/road.png') repeat;
+            
+            background-size: auto 15%, auto 15%, auto 15%, auto 20%, auto 15%, auto 34%;
+            background-position: top 15% left 5%, top 46% left 5%, top 55% left 5%, top 73% left -160%, top 92% left 5%, top 0% left 0%;
+            transition: background-position 10s ease
+        }
+        div:hover {
+            background-position: top 15% left 85%, top 46% left 95%, top 55% left 20%, top 76% left 280%, top 92% left 35%, top 0% left -2300%;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+</html>
